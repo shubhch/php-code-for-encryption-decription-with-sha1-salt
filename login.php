@@ -17,7 +17,7 @@
 	 
 	 $password=$_POST['password'].$salt;
 	 
-	 $password=shal($password);
+	 $password=sha1($password);
 	 
 	 $data=mysqli_query($connection,"SELECT * FROM 'users' WHERE 'username' = '{$username}' AND password='{$password}'");
 	 
