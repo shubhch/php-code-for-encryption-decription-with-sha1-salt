@@ -4,4 +4,4 @@ this is a php code without any html codes.
 
 this is to understand the encryption & decryption of password
 
-in this php shal and salt encryption is used to protect passwords.
+in this php sha1 and salt encryption is used to protect passwords.
